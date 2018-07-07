@@ -60,7 +60,6 @@ typedef struct {
     int16_t *BRLowCpx;
 } sp_fft;
 
-void sp_fft_create(sp_fft **fft);
 void sp_fft_init(sp_fft *fft, int M);
 void sp_fftr(sp_fft *fft, SPFLOAT *buf, int FFTsize);
 void sp_fft_cpx(sp_fft *fft, SPFLOAT *buf, int FFTsize);
