@@ -18,3 +18,6 @@ lib/fft/fft.c
 # Generated files
 util/wav2smp
 sp_dict.lua
+
+# Ignore IntelliJ IDEA files
+.idea
